@@ -1,6 +1,10 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [open, setopen] = useState(false);
+  console.log(open);
+
   return (
     <header
       name="Header"
@@ -8,7 +12,7 @@ const Navbar = () => {
     >
       <div
         name="Container"
-        className=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min max-w-[1200px] overflow-hidden p-0 relative w-full"
+        className=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min max-w-[390px] overflow-visible md:max-w-[1200px] md:overflow-hidden p-0 relative w-full"
       >
         <div className=" contents">
           <div className=" flex-[1_0_0px] h-auto relative w-px">
@@ -16,7 +20,7 @@ const Navbar = () => {
               data-hide-scrollbars="true"
               className=" items-center flex [flex-flow:row] h-min overflow-visible p-0 relative w-full [box-shadow:none] "
             >
-              <div className=" items-center flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-min overflow-visible p-0 relative w-px ">
+              <div className=" items-center flex flex-none md:flex-[1_0_0px] justify-between [flex-flow:row] md:gap-[10px] h-min overflow-visible py-5 w-full md:p-0 relative md:w-px ">
                 <div className=" flex-[0_0_auto] h-[56px] relative w-[163px] ">
                   <a
                     href="./"
@@ -34,8 +38,42 @@ const Navbar = () => {
                     </div>
                   </a>
                 </div>
+                <div className="flex-none md:hidden h-[40px] relative w-[40px]">
+                  <div
+                    onClick={() => setopen(!open)}
+                    data-framer-name="Close"
+                    data-highlight="true"
+                    tabIndex={0}
+                    className="box-border [-webkit-font-smoothing:inherit] cursor-pointer h-full overflow-hidden relative w-full opacity-100"
+                  >
+                    <div
+                      data-framer-name="Bottom"
+                      style={{
+                        transform: open
+                          ? "translate3d(0px,-4.68507px,0px) rotate(-45deg)"
+                          : null,
+                        top: !open
+                          ? "calc(62.50000000000002% - 2px / 2)"
+                          : "calc(50.00000000000002% - 2px / 2)",
+                      }}
+                      className="box-border [-webkit-font-smoothing:inherit] bg-[#9ea3bf] flex-[0_0_auto] h-[2px] left-[calc(50% - 10px)] overflow-hidden absolute w-[20px] rounded-[50%_/_500%] duration-300 origin-[50%_50%_0px]"
+                    />
+                    <div
+                      style={{
+                        transform: open
+                          ? "translate3d(0px,-4.68507px,0px) rotate(45deg)"
+                          : null,
+                        top: !open
+                          ? "calc(37.50000000000002% - 2px / 2)"
+                          : "calc(50.00000000000002% - 2px / 2)",
+                      }}
+                      data-framer-name="Top"
+                      className="box-border [-webkit-font-smoothing:inherit] bg-[#9ea3bf] flex-[0_0_auto] h-[2px] left-[calc(50% - 10px)] overflow-hidden absolute  w-[20px] rounded-[50%_/_500%] duration-300 origin-[50%_50%_0px]"
+                    />
+                  </div>
+                </div>
               </div>
-              <div className=" items-center flex flex-[0_0_auto] [flex-flow:row] gap-[33px] h-min overflow-hidden p-0 relative w-min bg-[rgba(0,_0,_0,_0)] rounded-none z-[1] [box-shadow:none] ">
+              <div className=" items-center hidden md:flex flex-[0_0_auto] [flex-flow:row] gap-[33px] h-min overflow-hidden p-0 relative w-min bg-[rgba(0,_0,_0,_0)] rounded-none z-[1] [box-shadow:none] ">
                 <div className=" linkparent ">
                   <a
                     href="./#features"
