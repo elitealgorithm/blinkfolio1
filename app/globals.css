@@ -18,6 +18,30 @@
   .mobnavtext {
     @apply box-border text-[#9ea3bf] [-webkit-font-smoothing:inherit] m-0 p-0 text-[16px] leading-[1.8em];
   }
+  .cardwrap {
+    @apply place-content-center items-center justify-center max79:flex-none max79:w-full b7611:flex-none b7611:w-[54%] border border-[#1c244c] bg-[#05071a] rounded-[32px] [box-shadow:rgb(16,_22,_54)_0px_-10px_40px_inset] flex flex-[1_0_0px] [flex-flow:column] gap-[16px] h-min overflow-hidden px-[24px] py-[40px] relative w-px;
+  }
+  .iconwrap {
+    @apply place-content-center items-center justify-center [aspect-ratio:1_/_1] bg-[rgb(16,_22,_54)] rounded-[99px] [box-shadow:rgb(14,_12,_21)_0px_16px_24px,_rgb(14,_12,_21)_0px_2px_4px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[auto] overflow-hidden p-0 relative w-[60px];
+  }
+  .titlewrap {
+    @apply place-content-center items-center justify-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-hidden p-0 relative w-full;
+  }
+  .titlecontainer {
+    @apply flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none;
+  }
+  .cardtitle {
+    @apply text-center text-[#9ea3bf] font-normal text-[24px] leading-[1.4em];
+  }
+  .contentwrapper {
+    @apply place-content-center justify-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-hidden p-0 relative w-full;
+  }
+  .contentcontainer {
+    @apply flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none;
+  }
+  .cardcontent {
+    @apply text-[14px] text-[#9ea3bf] font-[300] leading-[1.7em] text-center;
+  }
 }
 
 :root {

@@ -3,12 +3,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex items-center flex-none flex-col h-min justify-center overflow-visible pt-[120px] relative w-full">
-      <div className="flex z-[1] flex-none items-center flex-col gap-[60px] justify-center py-[40px] relative w-full">
+    <section className="flex items-center flex-none flex-col h-min justify-center overflow-visible max79:p-[100px_0_0] b7611:p-[120px_0_10px] pt-[120px] relative w-full">
+      <div className="flex z-[1] flex-none items-center flex-col max79:gap-[30px] max79:p-[10px_0_40px] gap-[60px] justify-center b7611:gap-[50px] b7611:p-[50px_0_40px] py-[40px] relative b7611:w-[73%] w-full">
         <div
           data-name="Secton Title"
           name="Secton Title"
-          className=" place-content-center items-center flex flex-[0_0_auto] flex-col gap-[32px] h-min overflow-hidden p-0 relative w-[820px]"
+          className=" place-content-center items-center flex flex-[0_0_auto] flex-col gap-[32px] h-min overflow-hidden max79:p-[0_20px] max79:w-full p-0 relative b7611:w-[73%] w-[820px]"
         >
           <div
             data-name="Title"
@@ -46,7 +46,7 @@ const Hero = () => {
               >
                 <h1
                   data-styles-preset="Z9AZtUOya"
-                  className=" m-0 p-0 text-[#9ea3bf] text-[64px] font-[400] tracking-[-3px] leading-[1.15em] text-center"
+                  className=" m-0 p-0 text-white text-balance b7611:text-[52px] text-[64px] font-[400] tracking-[-3px] leading-[1.15em] text-center"
                 >
                   Get Stunning Developer Portfolio in Minutes
                 </h1>
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
             <div
               data-component-type="RichTextContainer"
-              className="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-[69%] break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none"
+              className="  flex-[0_0_auto] h-auto whitespace-pre-wrap max79:w-full w-[69%] break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none"
             >
               <p
                 data-styles-preset="vi7hyoDN2"
@@ -76,8 +76,8 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <form className=" place-content-center items-center justify-center flex flex-[0_0_auto] [flex-flow:row] gap-[8px] h-min overflow-hidden p-0 relative w-full">
-            <div className=" flex-[3.5_0_0px] h-[60px] relative w-px overflow-hidden   bg-[rgba(187,187,187,.15)] [transition-property:background,_box-shadow] rounded-[12px]">
+          <form className=" place-content-center items-center justify-center flex flex-[0_0_auto] max79:flex-col [flex-flow:row] gap-[8px] h-min overflow-hidden p-0 relative w-full">
+            <div className=" flex-[3.5_0_0px] max79:flex-none max79:w-full h-[60px] relative w-px overflow-hidden   bg-[rgba(187,187,187,.15)] [transition-property:background,_box-shadow] rounded-[12px]">
               <input
                 type="email"
                 required=""
@@ -89,7 +89,7 @@ const Hero = () => {
               />
             </div>
             <div className=" contents">
-              <div className=" self-stretch flex-[1_0_0px] h-auto relative w-px">
+              <div className=" self-stretch flex-[1_0_0px] max79:flex-none max79:w-full max79:h-[60px] max79:items-[unset] h-auto relative w-px">
                 <button
                   type="submit"
                   data-border="true"
@@ -115,13 +115,13 @@ const Hero = () => {
             </div>
           </form>
         </div>
-        <div className="flex-none h-[706px] relative w-[967px]">
+        <div className="flex-none max79:h-[257px] max79:w-[352px] h-[706px] relative b7611:h-[480px] b7611:w-[657px] w-[967px]">
           <video
             src="https://framerusercontent.com/assets/pC8lRLkpc2i1p1fgECgSV3JAHow.mp4"
-            loop=""
+            loop
             preload="auto"
-            muted=""
-            playsInline=""
+            muted
+            playsInline
             style={{
               cursor: "auto",
               width: "100%",
@@ -137,15 +137,14 @@ const Hero = () => {
       </div>
       <div className="contents">
         <div
-          className="aspect-[1.3333333333333333_/_1] bottom-[-400px] blur-none flex-none h-auto absolute -translate-x-2/4 w-full z-0 left-2/4
+          className="aspect-[1.3333333333333333_/_1] max79:bottom-[-51px] max79:h-auto b7611:bottom-[-102px] b7611:h-auto bottom-[-400px] blur-none flex-none h-auto absolute -translate-x-2/4 w-full z-0 left-2/4
    "
         >
           <div className="absolute inset-0">
-            <Image
+            <img
               decoding="async"
               sizes="100vw"
-              width={1440}
-              height={706}
+              srcSet="https://framerusercontent.com/images/0pkkUPiiBy68AdWhcnSLJijrCvQ.svg?scale-down-to=1024 831w,https://framerusercontent.com/images/0pkkUPiiBy68AdWhcnSLJijrCvQ.svg 1440w"
               src="https://framerusercontent.com/images/0pkkUPiiBy68AdWhcnSLJijrCvQ.svg"
               alt=""
               style={{
