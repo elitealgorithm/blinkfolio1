@@ -42,6 +42,42 @@
   .cardcontent {
     @apply text-[14px] text-[#9ea3bf] font-[300] leading-[1.7em] text-center;
   }
+  .features {
+    @apply place-content-center max79:flex-col max79:gap-[30px] max79:p-[0_0_12px] b7611:items-start b7611:flex-col b7611:gap-[40px] b7611:p-[0_0_16px] b7611:w-[70%] items-center justify-center flex flex-[0_0_auto] [flex-flow:row] gap-[68px] h-min overflow-hidden p-0 relative w-full;
+  }
+  .imagewrapper {
+    @apply place-content-center justify-center max79:h-min max79:p-[30px_0] bg-[#05071a] items-center rounded-[32px] [box-shadow:rgb(16,_22,_54)_0px_-10px_40px_inset] flex b7611:order-none b7611:w-full flex-[0_0_auto] [flex-flow:column] gap-[16px] h-[348px] overflow-hidden px-0 py-[40px] relative w-[500px];
+  }
+  .imagecontainer {
+    @apply contents after:content-[''] w-full h-full border border-[rgb(28,36,76)]  absolute left-0 top-0 rounded-[inherit] pointer-events-none;
+  }
+  .howimagewrap {
+    @apply [aspect-ratio:1.42917_/_1] flex-[0_0_auto] h-auto relative max79:w-[244px] w-[498px];
+  }
+  .imageholder {
+    @apply absolute [border-radius:inherit] inset-0;
+  }
+  .howimage {
+    @apply block w-full h-full [border-radius:inherit] object-cover;
+  }
+  .howcontentwrapper {
+    @apply items-start justify-center max79:flex-none max79:w-full  flex b7611:flex-none b7611:order-1 b7611:w-full flex-[1_0_0px] [flex-flow:column] gap-[32px] h-min overflow-hidden p-0 relative w-px;
+  }
+  .howcontenttext {
+    @apply place-content-center items-center justify-center flex flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-hidden p-0 relative w-full;
+  }
+  .howrichtextwrap {
+    @apply relative flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none;
+  }
+  .howheading {
+    @apply text-[32px] text-[#9e9e9e] leading-[1.6em] tracking-[-1px] text-start;
+  }
+  .howcontenttextwrap {
+    @apply relative flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none;
+  }
+  .howcontenttext {
+    @apply text-[#9ea3bf] text-[16px] font-normal leading-[1.8em];
+  }
 }
 
 :root {
