@@ -1,4 +1,5 @@
 import React from "react";
+import FaqIndividual from "./FaqIndividual";
 
 const Faqs = () => {
   return (
@@ -57,72 +58,8 @@ const Faqs = () => {
                 data-framer-name="Desktop"
                 className=" place-content-center items-center flex [flex-flow:column] gap-0 h-min overflow-hidden p-0 relative w-full transform-none origin-[50%_50%_0px]"
               >
-                <div
-                  data-framer-name="SIngle FAQ"
-                  className=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-0 relative w-full rounded-tl-[16px] rounded-tr-[16px] transform-none origin-[50%_50%_0px]"
-                >
-                  <div className=" flex-[1_0_0px] h-auto relative w-px transform-none origin-[50%_50%_0px]">
-                    <div
-                      data-framer-name="Close"
-                      data-highlight="true"
-                      tabIndex={0}
-                      className=" items-start cursor-pointer flex [flex-flow:column] gap-0 h-min overflow-hidden px-0 py-[32px] relative w-full rounded-[16px] transform-none origin-[50%_50%_0px]"
-                    >
-                      <div
-                        data-framer-name="Content & Icon"
-                        data-highlight="true"
-                        tabIndex={0}
-                        className=" items-start cursor-pointer flex flex-[0_0_auto] [flex-flow:row] gap-[16px] h-min overflow-visible p-0 relative w-full transform-none origin-[50%_50%_0px]"
-                      >
-                        <div
-                          data-framer-name="Content"
-                          className=" place-content-center items-center flex flex-[1_0_0px] [flex-flow:column] gap-[16px] h-min overflow-visible p-0 relative w-px transform-none origin-[50%_50%_0px]"
-                        >
-                          <div
-                            data-framer-name="Question"
-                            className=" items-center flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-visible p-0 relative w-full transform-none origin-[50%_50%_0px]"
-                          >
-                            <div
-                              data-framer-component-type="RichTextContainer"
-                              className=" absolute flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none origin-[50%_50%_0px]"
-                            >
-                              <p
-                                data-styles-preset="f3rFV3raZ"
-                                className=" m-0 p-0 font-[var(--framer-blockquote-font-family,_var(--framer-font-family,_Inter,_Inter_Placeholder,_sans-serif))] font-[var(--framer-blockquote-font-weight, var(--framer-font-weight, 400))] text-[calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))] tracking-[var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0))] leading-[var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))] [font-variation-settings:var(--framer-font-variation-axes,_normal)]"
-                              >
-                                Can't I just code it myself?
-                              </p>
-                            </div>
-                            <div
-                              data-framer-name="Icon"
-                              className=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-0 h-min overflow-hidden pt-[4px] px-0 pb-0 relative w-min rounded-[100px] transform-none origin-[50%_50%_0px]"
-                            >
-                              <div
-                                data-framer-name="Icon"
-                                className=" flex-[0_0_auto] h-[24px] relative w-[24px] transform-none origin-[50%_50%_0px]"
-                              >
-                                <div
-                                  data-framer-background-image-wrapper="true"
-                                  className=" absolute [border-radius:inherit]"
-                                >
-                                  <img
-                                    decoding="async"
-                                    loading="lazy"
-                                    sizes="24px"
-                                    src="https://framerusercontent.com/images/dDFnN7NQRlS8lCvI0dkVOJZAUnw.svg"
-                                    alt=""
-                                    className=" block w-full h-full [border-radius:inherit] object-cover"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
+                <FaqIndividual />
+                {/* <div
                   data-border="true"
                   data-framer-name="SIngle FAQ"
                   className=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-0 relative w-full transform-none origin-[50%_50%_0px]"
@@ -187,7 +124,7 @@ const Faqs = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

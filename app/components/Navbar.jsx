@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [open, setopen] = useState(false);
-  console.log(open);
+  //   console.log(open);
 
   return (
     <header
