@@ -7,19 +7,30 @@ const Footer = () => {
         <div className="flex-[1_0_0px] h-auto relative w-px">
           <header
             data-framer-name="Desktop"
-            className=" place-content-center items-center justify-center flex [flex-flow:column] gap-0 h-min overflow-visible pt-[160px] px-[30px] pb-[65px] relative w-full opacity-100"
+            className=" place-content-center items-center justify-center flex [flex-flow:column] gap-0 h-min overflow-visible max79:p-[60px_20px] pt-[160px] px-[30px] pb-[65px] relative w-full opacity-100"
           >
+            <div className="absolute inset-0">
+              <img
+                decoding="async"
+                loading="lazy"
+                sizes="max(100vw, 1px)"
+                srcSet="https://framerusercontent.com/images/leX2CPSDZPwdCaIzRv8cVTkpP0s.svg?scale-down-to=512 512w,https://framerusercontent.com/images/leX2CPSDZPwdCaIzRv8cVTkpP0s.svg?scale-down-to=1024 1024w,https://framerusercontent.com/images/leX2CPSDZPwdCaIzRv8cVTkpP0s.svg 1440w"
+                src="https://framerusercontent.com/images/leX2CPSDZPwdCaIzRv8cVTkpP0s.svg"
+                alt=""
+                className="box-border [-webkit-font-smoothing:inherit] block w-full h-full [border-radius:inherit] object-cover"
+              />
+            </div>
             <div
               data-framer-name="Container"
-              className=" place-content-center items-center justify-center flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min max-w-[1200px] overflow-hidden p-0 relative w-full opacity-100 transform-none"
+              className=" place-content-center max79:max-w-[390px] items-center b7611:max-w-[768px] justify-center flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min max-w-[1200px] overflow-hidden p-0 relative w-full opacity-100 transform-none"
             >
               <div
                 data-framer-name="Top"
-                className=" items-center justify-start flex flex-[0_0_auto] [flex-flow:row] gap-[29px] h-min overflow-hidden pt-0 px-0 pb-[45px] relative w-full opacity-100"
+                className=" items-center max79:flex-col max79:p-[0_0_30px] b7611:items-start b7611:flex-col b7611:gap-[30px] justify-start flex flex-[0_0_auto] [flex-flow:row] gap-[29px] h-min overflow-hidden pt-0 px-0 pb-[45px] relative w-full opacity-100"
               >
                 <div
                   data-framer-name="Left Content"
-                  className=" items-center justify-start flex flex-[1_0_0px] [flex-flow:row] gap-[32px] h-min overflow-hidden p-0 relative w-px opacity-100"
+                  className=" items-center justify-start max79:items-start max79:flex-none max79:flex-col max79:w-full b7611:flex-none b7611:gap-[24px] b7611:justify-center b7611:w-full flex flex-[1_0_0px] [flex-flow:row] gap-[32px] h-min overflow-hidden p-0 relative w-px opacity-100"
                 >
                   <a
                     data-framer-name="Logo"
@@ -42,11 +53,11 @@ const Footer = () => {
                   </a>
                   <div
                     data-framer-name="Divider"
-                    className=" items-center justify-start flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[24px] overflow-hidden p-0 relative w-px bg-[rgb(230,_232,_236)] opacity-100"
+                    className=" items-center max79:hidden justify-start flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[24px] overflow-hidden p-0 relative w-px bg-[rgb(230,_232,_236)] opacity-100"
                   />
                   <div
                     data-framer-component-type="RichTextContainer"
-                    className=" relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100"
+                    className=" relative max79:flex-none max79:w-full b7611:w-[52%] b7611:flex-none flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100"
                   >
                     <p
                       data-styles-preset="vi7hyoDN2"
@@ -58,11 +69,11 @@ const Footer = () => {
                 </div>
                 <div
                   data-framer-name="Right Content"
-                  className=" items-center justify-end flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-hidden p-0 relative w-2/5 opacity-100"
+                  className=" items-center justify-end max79:justify-start max79:w-full b7611:justify-center b7611:w-full flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-hidden p-0 relative w-2/5 opacity-100"
                 >
                   <div
                     data-framer-name="Menu"
-                    className=" items-center justify-end flex flex-[0_0_auto] [flex-flow:row] gap-[31px] h-min overflow-hidden p-0 relative w-min opacity-100"
+                    className=" items-center max79:items-start max79:flex-[1_0_0] max79:flex-col max79:w-px justify-end flex flex-[0_0_auto] [flex-flow:row] gap-[31px] h-min overflow-hidden p-0 relative w-min opacity-100"
                   >
                     <div className=" flex-[0_0_auto] h-auto relative w-auto opacity-100">
                       <a
@@ -127,15 +138,15 @@ const Footer = () => {
               <div
                 data-border="true"
                 data-framer-name="Bottom"
-                className=" items-center justify-start border-t border-[rgba(158,163,191,0.2)] flex flex-[0_0_auto] [flex-flow:row] gap-[16px] h-min overflow-hidden pt-[45px] px-0 pb-0 relative w-full opacity-100"
+                className=" items-center justify-start max79:flex-col max79:gap-[24px] max79:p-[30px_0_0] b7611:items-start b7611:flex-col b7611:gap-[30px]  border-t border-[rgba(158,163,191,0.2)] flex flex-[0_0_auto] [flex-flow:row] gap-[16px] h-min overflow-hidden pt-[45px] px-0 pb-0 relative w-full opacity-100"
               >
                 <div
                   data-framer-name="Left Content"
-                  className=" place-content-center items-center justify-center flex flex-[1_0_0px] [flex-flow:row] gap-[28px] h-min overflow-hidden p-0 relative w-px opacity-100"
+                  className=" place-content-center max79:items-start max79:flex-none max79:flex-col max79:gap-[20px] max79:w-full b7611:flex-none b7611:w-full items-center justify-center flex flex-[1_0_0px] [flex-flow:row] gap-[28px] h-min overflow-hidden p-0 relative w-px opacity-100"
                 >
                   <div
                     data-framer-component-type="RichTextContainer"
-                    className=" relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100"
+                    className=" relative flex-[1_0_0px] max79:flex-none max79:order-none max79:w-full h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100"
                   >
                     <p
                       data-styles-preset="vi7hyoDN2"
@@ -150,7 +161,7 @@ const Footer = () => {
                 </div>
                 <div
                   data-framer-name="Social"
-                  className=" items-center justify-end flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-2/5 opacity-100"
+                  className=" items-center max79:justify-start max79:w-full b7611:justify-start justify-end flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-2/5 opacity-100"
                 >
                   <div className=" [aspect-ratio:1_/_1] flex-[0_0_auto] h-[var(--framer-aspect-ratio-supported, 23px)] relative w-[23px] opacity-100">
                     <a

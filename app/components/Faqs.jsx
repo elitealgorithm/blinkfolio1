@@ -7,17 +7,18 @@ const Faqs = () => {
       data-framer-name="FAQs"
       id="faqs"
       name="FAQs"
-      className=" bg-[#05071a] place-content-center items-center justify-center flex flex-[0_0_auto] flex-col gap-0 h-min overflow-hidden pt-[120px] px-[30px] pb-0 relative w-full opacity-100 transform-none"
+      className=" bg-[#05071a] place-content-center items-center justify-center flex flex-[0_0_auto] flex-col gap-0 h-min overflow-hidden max79:p-[20px_20px_0] b7611:p-[0_30px] pt-[120px] px-[30px] pb-0 relative w-full opacity-100 transform-none"
     >
       <div
         data-framer-name="Container"
         name="Container"
-        className=" items-start justify-center flex flex-[0_0_auto] [flex-flow:row] gap-0 h-min max-w-[1200px] overflow-visible pt-0 px-0 pb-[10px] relative w-full"
+        className=" items-start justify-center flex max79:flex-wrap max79:gap-[40px] b7611:flex-col b7611:gap-[50px] b7611:max-w-[768px] b7611:w-[90
+        %] flex-[0_0_auto] [flex-flow:row] b7611:gap-[40px] gap-0 h-min max-w-[1200px] overflow-visible pt-0 px-0 pb-[10px] relative w-full"
       >
         <div
           data-framer-name="Section Title"
           name="Section Title"
-          className=" items-start flex flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-hidden pl-0 pr-[40px] py-0 relative w-[41%]"
+          className=" items-start max79:w-full b7611:justify-start b7611:p-0 b7611:w-full flex flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-hidden pl-0 pr-[40px] py-0 relative w-[41%]"
         >
           <div
             data-framer-component-type="RichTextContainer"
@@ -25,14 +26,14 @@ const Faqs = () => {
           >
             <h2
               data-styles-preset="HUWPt_ptU"
-              className="text-[#9ea3bf] text-[48px] tracking-[-2px] leading-[1.2em] text-start "
+              className="text-[#9ea3bf] max79:text-[32px] max79:leading-[1.5em] b7611:text-[40px] b7611:leading-[1.5em] text-[48px] tracking-[-2px] leading-[1.2em] text-start "
             >
               Common Questions
             </h2>
           </div>
           <div
             data-framer-component-type="RichTextContainer"
-            className="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-[83%] break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none"
+            className="  flex-[0_0_auto] max79:w-full h-auto whitespace-pre-wrap w-[83%] break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none"
           >
             <p
               data-styles-preset="vi7hyoDN2"
@@ -45,7 +46,7 @@ const Faqs = () => {
         <div
           data-framer-name="Section Title"
           name="Section Title"
-          className=" items-end flex flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-hidden p-0 relative w-[59%]"
+          className=" items-end flex max79:w-full b7611:justify-start b7611:w-full flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-hidden p-0 relative w-[59%]"
         >
           <div className=" contents">
             <div

@@ -18,12 +18,12 @@ const FaqIndividual = () => {
     }
   };
   useEffect(() => {
-    if (!open) {
-      solref.current.style.height = "0px";
-    } else {
-      solref.current.style.height = "min-content";
-    }
-  }, [open]);
+    // if (!open) {
+    solref.current.style.height = "0px";
+    // } else {
+    //   solref.current.style.height = "min-content";
+    // }
+  }, []);
   return (
     <div
       data-framer-name="SIngle FAQ"
@@ -88,8 +88,8 @@ const FaqIndividual = () => {
               </div>
               <div
                 data-framer-name="answer"
-                className={`bg-[#0a0e28] rounded-[16px]  transform-none  ${
-                  open ? "p-[24px]" : "p-0"
+                className={`bg-[#0a0e28] rounded-[16px] px-[24px] transform-none  ${
+                  open ? "py-[24px] " : "py-0"
                 }  flex justify-center items-start gap-[10px]  duration-500 overflow-hidden relative w-full `}
               >
                 <div
